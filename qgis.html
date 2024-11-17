@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peta Purwokerto Kulon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .navbar {
+      background: linear-gradient(90deg, #003DA5, #0056D2);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .hero-section {
+      background: url('https://lh3.googleusercontent.com/p/AF1QipNoBQxzVo0UgJrxVv_hDU1SxBqxGYyEWXVGstY8=s1600-w400') center/cover;
+      padding: 100px 0;
+      color: white;
+      text-align: center;
+    }
+    .hero-section h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    }
+    .section h2 {
+      margin-bottom: 30px;
+      font-size: 2.5rem;
+      text-align: center;
+    }
+    #vision-mission .card, .info-card {
+      background-color: #f8f9fa;
+      border-radius: 15px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    #vision-mission .card:hover, .info-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+    .icon img {
+      max-width: 60px;
+    }
+    .list-group-item {
+      background-color: transparent;
+      border: none;
+    }
+    .footer {
+      background: #003DA5;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Purwokerto Kulon</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#map">Peta</a></li>
+          <li class="nav-item"><a class="nav-link" href="#description">Keterangan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#vision-mission">Visi & Misi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero-section" id="home">
+    <h1>Selamat Datang di Purwokerto Kulon</h1>
+  </div>
+
+  <!-- Bagian Peta -->
+  <section id="map" class="section bg-light">
+    <div class="container">
+      <h2>Peta Purwokerto Kulon</h2>
+      <iframe src="https://purwokertokulon171.netlify.app/#17/-7.43102/109.24624" frameborder="0" class="rounded" style="width: 100%; height: 500px;"></iframe>
+    </div>
+  </section>
+<!-- Bagian Keterangan -->
+<section id="description" class="section">
+    <div class="container">
+      <h2>Keterangan</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center">
+          <!-- Inline SVG untuk gambar -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="#003DA5" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+            <path d="M8 16a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm.93-11.412-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 .875-.252 1.064-.598l.088-.416c.287.345.895.598 1.416.598.99 0 1.46-.785 1.637-1.516l.036-.173c.19-.937-.105-1.319-.808-1.319-.545 0-.875.252-1.064.598l-.09.416c-.287-.345-.894-.598-1.415-.598-.991 0-1.461.785-1.638 1.516l-.035.173c-.19.937.105 1.319.808 1.319.546 0 .875-.252 1.064-.598l.088-.416c.287.345.895.598 1.416.598.99 0 1.46-.785 1.637-1.516l.036-.173c.19-.937-.105-1.319-.808-1.319-.545 0-.875.252-1.064.598l-.09.416c-.287-.345-.894-.598-1.415-.598z"/>
+          </svg>
+        </div>
+        <div class="col-md-6">
+          <p class="text-muted">Purwokerto Kulon merupakan salah satu desa di Kecamatan Purwokerto Utara, yang memiliki berbagai fasilitas umum seperti sekolah, pasar, dan tempat ibadah. Sebagian besar penduduknya bekerja di bidang pertanian dan usaha kecil.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Bagian Tentang -->
+  <section id="about" class="section bg-light">
+    <div class="container">
+      <h2>Tentang Purwokerto Kulon</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="text-muted">Purwokerto Kulon memiliki karakteristik budaya yang kaya, dengan masyarakat yang masih memegang teguh nilai-nilai tradisional. Desa ini sering mengadakan berbagai acara kebudayaan yang menarik bagi wisatawan, serta memiliki potensi pariwisata yang terus dikembangkan.</p>
+        </div>
+        <div class="col-md-6 text-center">
+          <!-- Inline SVG untuk gambar -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="#003DA5" class="bi bi-building" viewBox="0 0 16 16">
+            <path d="M6 0a2 2 0 0 0-2 2H1v12h14V2h-3a2 2 0 0 0-2-2H6zm3 2h2v2h-2V2zm-4 0h2v2H5V2zM2 3h2v2H2V3zm2 4H2v2h2V7zm6 0H6v2h2V7zm2 0h2v2h-2V7zM2 11h2v2H2v-2zm6 0H6v2h2v-2zm2 0h2v2h-2v-2zm3 4v-1h-1v1H3v-1H2v1H1v-2h14v2h-1z"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Bagian Visi & Misi -->
+  <section id="vision-mission" class="section">
+    <div class="container">
+      <h2 class="text-center mb-5">Visi & Misi</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card shadow border-0">
+            <div class="card-body text-center">
+              <div class="icon mb-3">
+                <img src="https://img.icons8.com/ios-filled/50/003DA5/goal.png" alt="Visi">
+              </div>
+              <h3 class="card-title mb-3">Visi</h3>
+              <p>Menjadi desa yang mandiri, sejahtera, dan berbudaya, serta mampu memberikan pelayanan terbaik kepada masyarakat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card shadow border-0">
+            <div class="card-body">
+              <div class="icon mb-3 text-center">
+                <img src="https://img.icons8.com/ios-filled/50/003DA5/task.png" alt="Misi">
+              </div>
+              <h3 class="card-title text-center mb-3">Misi</h3>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Meningkatkan kualitas pendidikan dan kesehatan masyarakat.</li>
+                <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Memberdayakan masyarakat melalui program ekonomi kreatif.</li>
+                <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Melestarikan budaya lokal dan lingkungan hidup.</li>
+                <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Membangun infrastruktur yang mendukung pertumbuhan ekonomi.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Peta Purwokerto Kulon. Dikembangkan oleh Dimaz Ardiyansah. Semua hak dilindungi.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
